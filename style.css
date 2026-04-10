@@ -1,0 +1,24 @@
+/*global css */
+*{
+  font: size 20px;font-weight:500;
+}
+/*External CSS */
+h3{
+    color:fuchsia
+}
+/*element selector */
+h4{
+    color:violet
+}
+/*class selector */
+.nyclass{
+    color:lightpink
+}
+/*id selector */
+#nyid{
+    color:magenta
+}
+/*id selector */
+h5,p{
+    color:pink
+}
