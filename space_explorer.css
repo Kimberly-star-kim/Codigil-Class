@@ -1,0 +1,49 @@
+body{
+    font-family:Arial,sans=serif;
+    background-color:darkblue;
+    color:navy;
+}
+h1{
+    background-color:royalblue;
+    padding:10px;
+    border-radius:5px;
+}
+/*child Selector*/
+ul>li{
+    font-weight:bold;
+}
+/*:hover pseud-clas*/
+ul li:hover{
+    background-color:turquoise;
+    color:mediumblue;
+}
+/*:not(selector)pseudo-class*/
+p:not(:first-of-type){
+    text-decoration:underline;
+}
+p::first-letter{
+    font-size:200%;
+    color:blue; 
+}
+a {
+
+    color: #8B949E;
+
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: #eb1f1f;
+
+}
+
+/* :nth-child(n) Pseudo-class */
+
+ul li:nth-child(3) {
+
+    background-color: #20477d;
+
+    color: #97bb20;
+}
